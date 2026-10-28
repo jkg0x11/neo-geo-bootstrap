@@ -11,10 +11,9 @@ Divshot’s gloriously retro Geo theme, rebuilt for Bootstrap 6.
 ![Bootstrap 6.0.0-alpha.1](https://img.shields.io/badge/Bootstrap-6.0.0--alpha.1-7952b3?style=flat-square)
 ![MIT license](https://img.shields.io/badge/license-MIT-00a86b?style=flat-square)
 ![Vanilla CSS](https://img.shields.io/badge/theme-vanilla_CSS-00b8d4?style=flat-square)
+[![Hosted on Lakebed](https://img.shields.io/badge/hosted_on-Lakebed-0ea5e9?style=flat-square)](https://lakebed.dev)
 
 [Live demo](https://neo-geo-bootstrap.lakebed.app) · [Component catalogue](https://neo-geo-bootstrap.lakebed.app/gallery) · [Original Geo](https://github.com/divshot/geo-bootstrap)
-
-Hosted on [Lakebed](https://lakebed.dev).
 
 </div>
 
