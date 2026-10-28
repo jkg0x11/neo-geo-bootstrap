@@ -14,6 +14,8 @@ Divshot’s gloriously retro Geo theme, rebuilt for Bootstrap 6.
 
 [Live demo](https://neo-geo-bootstrap.lakebed.app) · [Component catalogue](https://neo-geo-bootstrap.lakebed.app/gallery) · [Original Geo](https://github.com/divshot/geo-bootstrap)
 
+Hosted on [Lakebed](https://lakebed.dev).
+
 </div>
 
 [![Neo Geo Bootstrap’s live showcase: rainbow heading, beveled buttons, starfields, and Comic Sans](docs/images/neo-geo-bootstrap.png)](https://neo-geo-bootstrap.lakebed.app)
