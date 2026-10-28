@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.build-offline/
+.lakebed/
+test-results/
+playwright-report/
+.DS_Store
+/evidence/
+/artifacts/
+/public/*.zip
+.env
+.env.*
+!.env.example

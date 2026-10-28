@@ -1,0 +1,458 @@
+{
+  "bootstrap": "6.0.0-alpha.1",
+  "styles": [
+    {
+      "module": "accordion",
+      "group": "components",
+      "sample": "sample-stepper",
+      "selector": ".accordion",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "alert",
+      "group": "components",
+      "sample": "sample-toast",
+      "selector": ".alert",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "avatar",
+      "group": "components",
+      "sample": "sample-avatar",
+      "selector": ".avatar",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "badge",
+      "group": "components",
+      "sample": "sample-toast",
+      "selector": ".badge",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "breadcrumb",
+      "group": "components",
+      "sample": "sample-overflow",
+      "selector": ".breadcrumb",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "chip",
+      "group": "components",
+      "sample": "sample-chips",
+      "selector": ".chip",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "card",
+      "group": "components",
+      "sample": "sample-card",
+      "selector": ".card",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "carousel",
+      "group": "components",
+      "sample": "sample-carousel",
+      "selector": ".carousel",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "datepicker",
+      "group": "components",
+      "sample": "sample-datepicker",
+      "selector": "[data-vc=\"calendar\"]",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "dialog",
+      "group": "components",
+      "sample": "sample-overlays",
+      "selector": ".dialog",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "menu",
+      "group": "components",
+      "sample": "sample-navbar",
+      "selector": ".menu",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "list-group",
+      "group": "components",
+      "sample": "sample-nav",
+      "selector": ".list-group",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "nav",
+      "group": "components",
+      "sample": "sample-nav",
+      "selector": ".nav",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "nav-overflow",
+      "group": "components",
+      "sample": "sample-overflow",
+      "selector": ".nav-overflow",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "navbar",
+      "group": "components",
+      "sample": "sample-navbar",
+      "selector": ".navbar",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "drawer",
+      "group": "components",
+      "sample": "sample-overlays",
+      "selector": ".drawer",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "pagination",
+      "group": "components",
+      "sample": "sample-overflow",
+      "selector": ".pagination",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "placeholder",
+      "group": "components",
+      "sample": "sample-loading",
+      "selector": ".placeholder",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "popover",
+      "group": "components",
+      "sample": "sample-overlays",
+      "selector": "[data-bs-toggle=\"popover\"]",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "progress",
+      "group": "components",
+      "sample": "sample-loading",
+      "selector": ".progress",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "spinner",
+      "group": "components",
+      "sample": "sample-loading",
+      "selector": ".spinner-border",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "stepper",
+      "group": "components",
+      "sample": "sample-stepper",
+      "selector": ".stepper",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "toasts",
+      "group": "components",
+      "sample": "sample-toast",
+      "selector": ".toast",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "tooltip",
+      "group": "components",
+      "sample": "sample-overlays",
+      "selector": "[data-bs-toggle=\"tooltip\"]",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "transitions",
+      "group": "components",
+      "sample": "sample-navbar",
+      "selector": ".collapse",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/labels",
+      "group": "forms",
+      "sample": "sample-controls",
+      "selector": ".form-label",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/form-text",
+      "group": "forms",
+      "sample": "sample-controls",
+      "selector": ".form-text",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/form-control",
+      "group": "forms",
+      "sample": "sample-controls",
+      "selector": ".form-control",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/check",
+      "group": "forms",
+      "sample": "sample-checks",
+      "selector": ".check",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/radio",
+      "group": "forms",
+      "sample": "sample-checks",
+      "selector": ".radio",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/switch",
+      "group": "forms",
+      "sample": "sample-checks",
+      "selector": ".switch",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/form-range",
+      "group": "forms",
+      "sample": "sample-range",
+      "selector": ".form-range",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/floating-labels",
+      "group": "forms",
+      "sample": "sample-floating",
+      "selector": ".form-floating",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/input-group",
+      "group": "forms",
+      "sample": "sample-floating",
+      "selector": ".input-group",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/strength",
+      "group": "forms",
+      "sample": "sample-otp",
+      "selector": ".strength",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/otp-input",
+      "group": "forms",
+      "sample": "sample-otp",
+      "selector": ".otp",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/form-adorn",
+      "group": "forms",
+      "sample": "sample-fields",
+      "selector": ".form-adorn",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/chip-input",
+      "group": "forms",
+      "sample": "sample-chips",
+      "selector": ".chip-input",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/combobox",
+      "group": "forms",
+      "sample": "sample-combobox",
+      "selector": ".combobox-toggle",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/form-field",
+      "group": "forms",
+      "sample": "sample-fields",
+      "selector": ".form-field",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "forms/validation",
+      "group": "forms",
+      "sample": "sample-controls",
+      "selector": ".is-invalid",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "buttons/button",
+      "group": "buttons",
+      "sample": "sample-buttons",
+      "selector": ".btn-solid",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "buttons/button-group",
+      "group": "buttons",
+      "sample": "sample-buttons",
+      "selector": ".btn-group",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "buttons/close",
+      "group": "buttons",
+      "sample": "sample-overlays",
+      "selector": ".btn-close",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "content/reboot",
+      "group": "content",
+      "sample": "sample-content",
+      "selector": "p",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "content/lists",
+      "group": "content",
+      "sample": "sample-content",
+      "selector": "ul",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "content/blockquote",
+      "group": "content",
+      "sample": "sample-content",
+      "selector": "blockquote",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "content/tables",
+      "group": "content",
+      "sample": "sample-card",
+      "selector": ".table",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "content/images",
+      "group": "content",
+      "sample": "sample-content",
+      "selector": ".img-fluid",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "content/prose",
+      "group": "content",
+      "sample": "sample-content",
+      "selector": ".prose",
+      "treatment": "Geo theme"
+    },
+    {
+      "module": "layout/breakpoints",
+      "group": "layout",
+      "sample": "sample-layout",
+      "selector": ".col-6",
+      "treatment": "preserved layout API"
+    },
+    {
+      "module": "layout/containers",
+      "group": "layout",
+      "sample": "sample-layout",
+      "selector": ".container-fluid",
+      "treatment": "preserved layout API"
+    },
+    {
+      "module": "layout/grid",
+      "group": "layout",
+      "sample": "sample-layout",
+      "selector": ".row",
+      "treatment": "preserved layout API"
+    }
+  ],
+  "plugins": [
+    {
+      "name": "Alert",
+      "sample": "sample-toast"
+    },
+    {
+      "name": "Button",
+      "sample": "sample-buttons"
+    },
+    {
+      "name": "Carousel",
+      "sample": "sample-carousel"
+    },
+    {
+      "name": "Collapse",
+      "sample": "sample-navbar"
+    },
+    {
+      "name": "Combobox",
+      "sample": "sample-combobox"
+    },
+    {
+      "name": "Datepicker",
+      "sample": "sample-datepicker"
+    },
+    {
+      "name": "Dialog",
+      "sample": "sample-overlays"
+    },
+    {
+      "name": "Menu",
+      "sample": "sample-navbar"
+    },
+    {
+      "name": "NavOverflow",
+      "sample": "sample-overflow"
+    },
+    {
+      "name": "Drawer",
+      "sample": "sample-overlays"
+    },
+    {
+      "name": "Strength",
+      "sample": "sample-otp"
+    },
+    {
+      "name": "OtpInput",
+      "sample": "sample-otp"
+    },
+    {
+      "name": "Chips",
+      "sample": "sample-chips"
+    },
+    {
+      "name": "Popover",
+      "sample": "sample-overlays"
+    },
+    {
+      "name": "Range",
+      "sample": "sample-range"
+    },
+    {
+      "name": "ScrollSpy",
+      "sample": "sample-nav"
+    },
+    {
+      "name": "Tab",
+      "sample": "sample-nav"
+    },
+    {
+      "name": "Toast",
+      "sample": "sample-toast"
+    },
+    {
+      "name": "Toggler",
+      "sample": "sample-buttons"
+    },
+    {
+      "name": "Tooltip",
+      "sample": "sample-overlays"
+    }
+  ]
+}

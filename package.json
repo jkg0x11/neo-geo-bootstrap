@@ -1,0 +1,26 @@
+{
+  "name": "neo-geo-bootstrap",
+  "version": "0.2.0",
+  "description": "An unofficial Bootstrap 6 revival of Divshot\u2019s Geo theme",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run audit && vite build && node scripts/package.mjs",
+    "preview": "vite preview",
+    "test": "npm run audit && playwright test",
+    "audit": "node scripts/coverage.mjs",
+    "build:lakebed": "npm run build && node scripts/lakebed-package.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "bootstrap": "6.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "vite": "^8.3.5"
+  },
+  "private": true
+}

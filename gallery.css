@@ -1,0 +1,38 @@
+.catalogue { padding-top: 32px; }
+.catalogue-header { margin-bottom: 28px; }
+.catalogue-header h1 { display: inline-block; font-size: clamp(32px, 5vw, 52px); font-weight: 900; }
+.catalogue-section { margin-bottom: 36px; }
+.catalog-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
+.catalog-grid > .card { align-self: start; }
+.catalog-grid .card-body { min-width: 0; }
+.catalogue .component-stack { grid-template-columns: minmax(0,1fr); }
+.catalogue .hstack > .text-truncate { min-width: 0; }
+.catalog-grid .form-label { margin-bottom: 8px; }
+.full-width { width: 100%; }
+.catalogue :is(.demo-menu, .form-floating, .input-group) { min-width: 0; }
+.catalogue .toast { max-width: 100%; }
+.catalogue .navbar { display: flex; flex-wrap: wrap; justify-content: space-between; padding: 12px; }
+.catalogue .navbar-brand { font-size: 22px; }
+.catalogue .form-text { margin: 10px 0 0; }
+.catalogue .pagination { margin-top: 18px; }
+.catalogue .menu { max-width: min(420px, calc(100vw - 36px)); }
+.catalogue .otp { --bs-otp-size: clamp(1.75rem, 7vw, 2.5rem); }
+.catalogue .otp-slots { max-width: 100%; }
+.catalogue .form-control-plaintext { color: #fff; }
+.catalogue [data-vc="calendar"] { max-width: 100%; min-width: min(280px, 100%); }
+.catalogue [data-vc="column"] { min-width: 0; }
+.catalogue [data-vc="controls"] { padding: 6px; }
+.catalogue [data-vc="month"], .catalogue [data-vc="year"] { font-size: 13px; padding: 3px; }
+.spy-scroll { height: 150px; overflow-y: auto; border: 3px inset #ccc; padding: 12px; background: #000; }
+.spy-scroll section { min-height: 180px; }
+.retro-slide { min-height: 190px; padding: 24px; background: #000080; }
+.retro-slide > span { font: 32px "Courier New",monospace; color: #0ff; }
+.retro-slide h3 { font-size: 24px; }
+.layout-cell { display: grid; place-items: center; padding: 12px; border: 2px ridge #aaa; color: #ff0; background: #000080; text-align: center; }
+.catalogue .placeholder { margin: 4px 0; }
+.catalogue .card-title { font-size: 22px; }
+.catalogue .stepper { --bs-stepper-gap: .5rem; }
+.catalogue .stepper-item { font-size: 12px; }
+.gallery-focus { outline: 3px dotted #ff0; }
+@media(max-width:800px) { .catalog-grid { grid-template-columns: 1fr; } .catalogue { padding-top: 20px; } .catalogue-header h1 { font-size: 36px; } }
+@media(max-width:440px) { .catalog-grid { gap: 18px; } .catalogue-header h1 { font-size: 30px; } .topbar .site-wrap { font-size: 10px; } }

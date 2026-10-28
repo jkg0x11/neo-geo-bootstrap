@@ -1,0 +1,80 @@
+/* Demo layout only. The reusable component theme is in public/theme/. */
+html { scroll-padding-top: 1rem; }
+body { margin: 0; }
+.site-wrap { width: min(1120px, calc(100% - 40px)); margin: auto; }
+.topbar { background: #c0c0c0; color: #000; border-bottom: 3px ridge #eee; padding: 7px 0; font: 12px "Courier New", monospace; }
+.topbar .site-wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.topbar a { color: #000080; }
+.status-dot { color: #008000; font-size: 14px; }
+.masthead { padding: 36px 0 24px; text-align: center; }
+.masthead-eyebrow { color: #0ff; font: 12px "Courier New", monospace; letter-spacing: .12em; margin-bottom: 12px; }
+.hero-title { display: flex; align-items: center; justify-content: center; gap: 24px; margin: 0 0 12px; }
+.hero-title h1 { font-size: clamp(44px, 7vw, 82px); font-weight: 900; line-height: 1.12; letter-spacing: -4px; margin: 0; filter: drop-shadow(3px 3px 0 #000); }
+.hero-title img { width: 52px; height: 52px; object-fit: contain; }
+.hero-tagline { font-size: 19px; margin: 0 0 10px; }
+.hero-subline { font-size: 13px; color: #d5d5ff; margin-bottom: 22px; }
+.hero-actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+.web-badges { display: flex; justify-content: center; align-items: center; gap: 8px; flex-wrap: wrap; margin: 22px 0 0; }
+.web-badges img { width: 88px; height: 31px; image-rendering: pixelated; }
+.ticker-wrap { border: 2px inset #aaa; background: #000; padding: 7px 12px; color: #ff0; font: 13px "Courier New", monospace; margin-bottom: 16px; }
+.section-nav { display: flex; gap: 0; flex-wrap: wrap; padding: 3px; background: #c0c0c0; border: 3px outset #eee; margin-bottom: 24px; }
+.section-nav a { flex: 1; text-align: center; color: #000080; padding: 9px 12px; border-right: 1px solid #808080; font-weight: bold; font-size: 14px; }
+.section-nav a:last-child { border: none; }
+.section-nav a:hover, .section-nav a[aria-current] { color: #fff; background: #000080; }
+.intro-strip { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 28px; }
+.intro-strip p { margin: 0; font-size: 14px; }
+.intro-strip img { width: 38px; height: 38px; object-fit: contain; }
+.section-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 3px ridge #ccc; padding-bottom: 10px; margin-bottom: 18px; }
+.section-heading h2 { font-size: 26px; margin: 0; }
+.section-heading small { font: 11px "Courier New", monospace; color: #c2c2ef; }
+.section-heading img { margin-right: 8px; max-height: 24px; vertical-align: middle; }
+.showcase-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 28px; }
+.demo-section { margin-bottom: 32px; min-width: 0; }
+.button-matrix { display: grid; grid-template-columns: 95px 1fr 1fr; align-items: center; gap: 12px; }
+.matrix-label { font: 12px "Courier New", monospace; color: #e4e4ff; }
+.button-matrix .btn { width: 100%; font-size: 13px; min-height: 42px; }
+.button-matrix .btn-sm { font-size: 11px; min-height: 31px; }
+.matrix-heading { color: #0ff; text-align: center; font: 11px "Courier New", monospace; }
+.demo-note { font: 12px "Courier New", monospace; color: #c9c9ed; margin: 18px 0 0; line-height: 1.7; }
+.type-samples { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 16px; align-items: center; }
+.type-samples :is(h1,h2,h3,h4,h5,h6) { margin: 0; font-weight: bold; }
+.type-samples h1 { font-size: 30px; }.type-samples h2 { font-size: 27px; }.type-samples h3 { font-size: 24px; }.type-samples h4 { font-size: 21px; }.type-samples h5 { font-size: 18px; }.type-samples h6 { font-size: 16px; }
+.type-description { font-size: 14px; line-height: 1.8; margin: 18px 0 0; }
+.mini-label { display: block; color: #0ff; letter-spacing: .08em; font: 11px "Courier New", monospace; margin-bottom: 12px; }
+.component-stack { display: grid; gap: 16px; }
+.form-stack { display: grid; gap: 16px; }
+.form-stack label { display: block; margin-bottom: 6px; }
+.guestbook-entry { padding: 12px 0; border-bottom: 1px dotted #8080a0; }
+.guestbook-entry:last-child { border: 0; }
+.guestbook-entry p { margin: 5px 0 0; font-size: 14px; overflow-wrap: anywhere; white-space: pre-wrap; }
+.guestbook-entry small { color: #bbbbdf; font: 11px "Courier New", monospace; }
+.guestbook-entry strong { color: #0ff; }
+.entry-topline { display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+.two-up { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.badge-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.toolbar { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.install-code { margin-bottom: 14px; font-size: 12px; line-height: 1.8; }
+.download-status { min-height: 1.5em; margin: 8px 0 0; font: 12px "Courier New", monospace; color: #9affab; }
+.demo-menu { position: relative; display: inline-block; }
+.site-footer { border-top: 3px ridge #ccc; text-align: center; margin-top: 14px; padding: 26px 0 32px; font-size: 12px; }
+.counter { display: inline-flex; gap: 3px; padding: 5px; border: 3px inset #aaa; background: #000; font: bold 22px "Courier New", monospace; color: #0f0; letter-spacing: 3px; margin: 9px 0; }
+.footer-links { display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; margin: 12px 0; }
+.motion-button { border: 0; padding: 0; color: #000080; background: transparent; text-decoration: underline; font: inherit; cursor: pointer; }
+.skip-link { position: absolute; top: -100px; left: 10px; z-index: 100; background: #000; color: #ff0; padding: 10px; }
+.skip-link:focus { top: 10px; }
+.menu { min-width: 200px; }
+@media (max-width: 800px) {
+  .showcase-grid, .two-up { grid-template-columns: 1fr; gap: 0; }
+  .hero-title { gap: 12px; }.hero-title h1 { letter-spacing: -2px; }.hero-title img { width: 34px; height: 34px; }
+  .topbar .site-wrap { flex-wrap: wrap; }.topbar-detail { display: none; }
+  .section-nav a { flex-basis: 33.33%; border: none; }
+  .intro-strip { align-items: start; }.section-heading small { display: none; }
+}
+@media (max-width: 440px) {
+  .site-wrap { width: calc(100% - 24px); }.masthead { padding-top: 28px; }
+  .hero-title h1 { font-size: 43px; }.hero-title img { width: 24px; height: 24px; }
+  .hero-tagline { font-size: 16px; }.hero-subline { font-size: 12px; }
+  .button-matrix { grid-template-columns: 70px 1fr 1fr; gap: 9px; }
+  .button-matrix .btn { font-size: 11px; padding: 6px; }
+  .geo-well, .card-body { padding: 16px; }.nav-link { padding: 8px 10px; }
+}
